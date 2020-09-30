@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1886031364518391017}
-  - component: {fileID: 7141008813913680736}
+  - component: {fileID: 4008319888875256459}
   m_Layer: 0
-  m_Name: binary to int
+  m_Name: binary to dec
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7141008813913680736
+--- !u!114 &4008319888875256459
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -40,9 +40,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2179199672060113212}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff7bb3bc1a9adf84daa735aa717a411e, type: 3}
+  m_Script: {fileID: 11500000, guid: 624aec59d39eb134393f6064306e5314, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  binaryOutput: 
+  intOutput: 0
+  intStringOutput: 
   ListLightBulbs_B0:
   - {fileID: 0}
   - {fileID: 0}
@@ -79,3 +82,4 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  result: {fileID: 0}

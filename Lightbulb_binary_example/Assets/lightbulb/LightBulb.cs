@@ -10,12 +10,12 @@ namespace LightBulbBinary
         public SpriteRenderer renderer_0;
         public SpriteRenderer renderer_1;
         SpriteRenderer renderer_bulb;
-        BinaryToInt binaryToInt;
+        BinaryToDec binaryToInt;
 
         private void Start()
         {
             renderer_bulb = this.gameObject.GetComponent<SpriteRenderer>();
-            binaryToInt = FindObjectOfType<BinaryToInt>();
+            binaryToInt = FindObjectOfType<BinaryToDec>();
         }
 
         private void Update()
