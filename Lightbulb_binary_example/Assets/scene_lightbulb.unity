@@ -1335,7 +1335,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2179199672060113212, guid: bbe9581ba95acf542add9343d96c035c, type: 3}
       propertyPath: m_Name
-      value: binary to dec
+      value: result printer
       objectReference: {fileID: 0}
     - target: {fileID: 4008319888875256459, guid: bbe9581ba95acf542add9343d96c035c, type: 3}
       propertyPath: ListLightBulbs_B0.Array.data[0]

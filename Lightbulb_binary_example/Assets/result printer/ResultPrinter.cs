@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 namespace LightBulbBinary
 {
-    public class BinaryToDec : MonoBehaviour
+    public class ResultPrinter : MonoBehaviour
     {
         char[] arrBinaryChar = new char[32];
         string binaryInput;

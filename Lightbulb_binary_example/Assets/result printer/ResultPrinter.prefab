@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1886031364518391017}
   - component: {fileID: 4008319888875256459}
   m_Layer: 0
-  m_Name: binary to dec
+  m_Name: ResultPrinter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43,9 +43,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 624aec59d39eb134393f6064306e5314, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  binaryOutput: 
-  intOutput: 0
-  intStringOutput: 
+  intResultText: {fileID: 0}
+  floatResultText: {fileID: 0}
   ListLightBulbs_B0:
   - {fileID: 0}
   - {fileID: 0}
@@ -82,4 +81,3 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  result: {fileID: 0}
