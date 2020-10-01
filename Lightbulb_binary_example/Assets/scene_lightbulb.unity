@@ -1338,6 +1338,14 @@ PrefabInstance:
       value: result printer
       objectReference: {fileID: 0}
     - target: {fileID: 4008319888875256459, guid: bbe9581ba95acf542add9343d96c035c, type: 3}
+      propertyPath: intResultText
+      value: 
+      objectReference: {fileID: 1505532038}
+    - target: {fileID: 4008319888875256459, guid: bbe9581ba95acf542add9343d96c035c, type: 3}
+      propertyPath: floatResultText
+      value: 
+      objectReference: {fileID: 1263056227}
+    - target: {fileID: 4008319888875256459, guid: bbe9581ba95acf542add9343d96c035c, type: 3}
       propertyPath: ListLightBulbs_B0.Array.data[0]
       value: 
       objectReference: {fileID: 470190508}
@@ -1465,17 +1473,5 @@ PrefabInstance:
       propertyPath: ListLightBulbs_B3.Array.data[7]
       value: 
       objectReference: {fileID: 941145304}
-    - target: {fileID: 4008319888875256459, guid: bbe9581ba95acf542add9343d96c035c, type: 3}
-      propertyPath: result
-      value: 
-      objectReference: {fileID: 1505532038}
-    - target: {fileID: 4008319888875256459, guid: bbe9581ba95acf542add9343d96c035c, type: 3}
-      propertyPath: intResultText
-      value: 
-      objectReference: {fileID: 1505532038}
-    - target: {fileID: 4008319888875256459, guid: bbe9581ba95acf542add9343d96c035c, type: 3}
-      propertyPath: floatResultText
-      value: 
-      objectReference: {fileID: 1263056227}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbe9581ba95acf542add9343d96c035c, type: 3}

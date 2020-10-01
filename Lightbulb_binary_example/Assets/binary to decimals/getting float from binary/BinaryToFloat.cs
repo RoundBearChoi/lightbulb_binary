@@ -32,11 +32,25 @@ namespace LightBulbBinary
 
         static decimal GetExponent(string binaryString)
         {
-            string exponent_part = binaryString.Substring(1, 8); // 1111 1111
-            int intResult = System.Convert.ToInt32(exponent_part, 2); // max = 128 (what you can express with 8 bits)
+            try
+            {
+                string exponent_part = binaryString.Substring(1, 8); // 1111 1111
+                int intResult = System.Convert.ToInt32(exponent_part, 2); // max = 255 (what you can express with 8 bits)
 
-            return (decimal)Mathf.Pow(2, intResult - 127);
+                Debug.Log("0~255: " + intResult);
 
+                return (decimal)Mathf.Pow(2, intResult - 127);
+            }
+            catch(System.Exception e)
+            {
+                Debug.Log(e);
+                return 0;
+            }
+
+            // 2^5 = 32
+            // 2^4 = 16
+            // 2^3 = 8
+            // 2^2 = 4
             // 2^1 = 2
             // 2^0 = 1
             // 2^-1 = 0.5
