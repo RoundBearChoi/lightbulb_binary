@@ -25,9 +25,6 @@ namespace LightBulbBinary
             int seven_digit_int = System.Convert.ToInt32(twentythree_bits, 2); // max = 8,388,607 (what you can express with 23 bits)
 
             return 1 + (decimal)seven_digit_int / power_two_23; // "power_two_23" = 2^23 = 8,388,608
-
-            // highest result is approx 1.9999999
-            // lowest result is approx 1.0000001
         }
 
         static decimal GetExponent(string binaryString)
@@ -46,22 +43,6 @@ namespace LightBulbBinary
                 Debug.Log(e);
                 return 0;
             }
-
-            // 2^5 = 32
-            // 2^4 = 16
-            // 2^3 = 8
-            // 2^2 = 4
-            // 2^1 = 2
-            // 2^0 = 1
-            // 2^-1 = 0.5
-            // 2^-2 = 0.25
-            // 2^-3 = 0.125
-            // 2^-4 = 0.0625
-            // 2^-5 = 0.03125
-            // 2^-6 = 0.015625
-            // 2^-7 = 0.0078125
-            // ...
-            // 2^-127 = close to 0
         }
 
         static decimal CalcFloatingPoint(string binaryString, decimal mantissa, decimal exponent)
