@@ -81,11 +81,11 @@ namespace LightBulbBinary
         {
             if (binaryString[0].Equals('1'))
             {
-                return 1;
+                return -1;
             }
             else
             {
-                return -1;
+                return 1;
             }
         }
     }
