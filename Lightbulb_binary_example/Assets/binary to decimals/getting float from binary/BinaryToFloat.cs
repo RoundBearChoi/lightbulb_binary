@@ -35,7 +35,7 @@ namespace LightBulbBinary
             string exponent_part = binaryString.Substring(1, 8); // 1111 1111
             int intResult = System.Convert.ToInt32(exponent_part, 2); // max = 128 (what you can express with 8 bits)
 
-            return (int)Mathf.Pow(2, intResult - 127);
+            return (decimal)Mathf.Pow(2, intResult - 127);
 
             // 2^1 = 2
             // 2^0 = 1
