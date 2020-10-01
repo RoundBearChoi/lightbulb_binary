@@ -50,8 +50,8 @@ namespace LightBulbBinary
 
             intResultText.text = BinaryToInteger.GetIntString(binaryInput);
 
-            decimal decimalPoint = BinaryToFloat.GetDecimalPoint(binaryInput);
-            floatResultText.text = decimalPoint.ToString("F7");
+            decimal decimalPoint = BinaryToFloat.GetFloatingPoint(binaryInput);
+            floatResultText.text = decimalPoint.ToString("F6");
         }
     }
 }
